@@ -6,7 +6,9 @@
 [![img-npm-version]][url-npm]
 [![img-travis]][url-travis]
 
-
+# Why this fork?
+This is just a fork from Simeon Velichkov's [Express Admin][url-original] that
+uses the *mysql2* package instead of the *mysql* one.
 # [Introductory Screencast][url-screencast]
 
 # [Documentation][url-docs]
@@ -39,7 +41,7 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-
+  [url-original]: https://github.com/simov/express-admin
   [url-screencast]: https://www.youtube.com/watch?v=1CdoCB96QNk
   [url-docs]: https://simov.github.io/express-admin
   [url-examples]: https://github.com/simov/express-admin-examples
