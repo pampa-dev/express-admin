@@ -210,7 +210,7 @@ function initServer (args) {
         .use(serveStatic((function () {
             var dpath = path.resolve(__dirname, 'node_modules/express-admin-static');
             if (!fs.existsSync(dpath)) {
-                dpath = path.resolve(__dirname, '../express-admin-static');
+                dpath = path.resolve(__dirname, '../../express-admin-static');
             }
             return dpath;
         })()));
